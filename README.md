@@ -1,1 +1,1 @@
-<h1 align="center">🍐 Retro Perplixity Clone 🍐</h1>
+<h1 align="center">🍐 Retro Perplexity Clone 🍐</h1>
