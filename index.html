@@ -22,45 +22,45 @@
 <body class="overflow-x-hidden">
 
   <!-- Main Container -->
-  <div class="max-w-3xl mx-auto mt-12 p-6 text-center bg-black/80 border-4 border-pink-500 shadow-[0_0_20px_#ff00ff] animate-fadeIn">
+  <div class="max-w-3xl mx-auto mt-12 p-6 text-center bg-black/80 border-4 border-pink-500 shadow-[0_0_20px_#ff00ff] animate-fadeIn md:p-12">
     <!-- Title -->
-    <h1 class="text-4xl md:text-6xl text-yellow-300 drop-shadow-lg animate-bounce">
+    <h1 class="text-3xl md:text-5xl lg:text-6xl text-yellow-300 drop-shadow-lg animate-bounce">
       Welcome to Perplexity
     </h1>
 
     <!-- Marquee -->
     <div class="mt-6 overflow-hidden border-2 border-yellow-300">
-      <marquee behavior="scroll" direction="left" class="text-red-500 bg-black p-2">
+      <marquee behavior="scroll" direction="left" class="text-red-500 bg-black p-2 text-xs md:text-sm lg:text-base">
         Ask Anything - Explore the Web Like It's 1999!
       </marquee>
     </div>
 
     <!-- Search Box -->
     <div class="mt-6 space-y-3">
-      <input type="text" class="nes-input w-4/5 mx-auto text-lg text-green-500 border-cyan-400 bg-black focus:outline-none" placeholder="Ask anything...">
+      <input type="text" class="nes-input w-full md:w-3/4 text-xs md:text-lg text-green-500 border-cyan-400 bg-black focus:outline-none" placeholder="Ask anything...">
       <button class="nes-btn is-warning w-1/2 mx-auto hover:scale-110 transition-transform duration-300">
         Search
       </button>
     </div>
 
     <!-- Quick Questions -->
-    <div class="mt-8 space-y-4">
-      <button class="nes-btn w-3/4 mx-auto text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
+    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+      <button class="nes-btn w-full text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
         💡 What is red light therapy?
       </button>
-      <button class="nes-btn w-3/4 mx-auto text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
+      <button class="nes-btn w-full text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
         🤖 How big is the Grok-1 model?
       </button>
-      <button class="nes-btn w-3/4 mx-auto text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
-        🧱 Show me the coolest LEGO sets available
+      <button class="nes-btn w-full text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
+        🧱 Show me the coolest LEGO sets
       </button>
-      <button class="nes-btn w-3/4 mx-auto text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
+      <button class="nes-btn w-full text-green-500 bg-white/80 border-dashed border-2 border-cyan-300 hover:bg-gray-400/80 transition duration-300">
         🔍 How is Perplexity AI different?
       </button>
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="mt-8 flex justify-around bg-black border-t-4 border-cyan-400 border-b-4 py-3">
+    <nav class="mt-8 gap-4 break-words flex flex-wrap justify-around bg-black border-t-4 border-cyan-400 border-b-4 py-3 text-xs md:text-sm lg:text-base">
       <a href="#" class="text-green-400 hover:text-yellow-400 transition duration-300">Home</a>
       <a href="#" class="text-green-400 hover:text-yellow-400 transition duration-300">Discover</a>
       <a href="#" class="text-green-400 hover:text-yellow-400 transition duration-300">Spaces</a>
@@ -69,7 +69,7 @@
     </nav>
 
     <!-- Footer -->
-    <footer class="mt-6 p-3 bg-black border-t-2 border-cyan-300 text-white">
+    <footer class="mt-6 p-3 bg-black border-t-2 border-cyan-300 text-white text-xs md:text-sm">
       &copy; 1900s Retro Perplexity - All Rights Reserved
     </footer>
   </div>
